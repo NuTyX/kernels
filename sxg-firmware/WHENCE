@@ -1,0 +1,10 @@
+Driver: sxg - Alacritech IS-NIC products
+
+File: sxg/saharadownloadB.sys
+File: sxg/saharadbgdownloadB.sys
+
+Licence: Redistributable. See LICENCE.alacritech for details
+
+Found in hex form in kernel source.
+
+--------------------------------------------------------------------------
