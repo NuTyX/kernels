@@ -1,0 +1,3 @@
+mkinitramfs 6.18.48-1-nutyx
+rm -f boot/initrd-618
+mv boot/initrd-6.18.48-1-nutyx boot/initrd-618
