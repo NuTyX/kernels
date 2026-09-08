@@ -1,0 +1,2 @@
+print("First lua post-install script !")
+print(_VERSION)

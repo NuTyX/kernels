@@ -1,0 +1,14 @@
+description="Lua pre install scriptlet test"
+url="https://github.org/NuTyX/cards"
+
+packager="tnut <tnut@nutyx.org>"
+contributors="Spiky"
+
+name=lua-package
+version=20260805
+
+
+build()
+{
+mkdir -pv $PKG/{usr,lib,etc}
+}
