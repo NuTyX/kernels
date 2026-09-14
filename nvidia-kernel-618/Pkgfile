@@ -7,7 +7,7 @@ license="custom"
 
 name=nvidia-kernel-618
 version=615.71.09
-release=1
+release=2
 
 run=(kernel-618)
 KERNELNAME="${name#nvidia-}"
