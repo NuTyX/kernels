@@ -16,7 +16,7 @@ PKGMK_GROUPS=(devel doc)
 PKGMK_KEEP_SOURCES="no"
 
 name=kernel-mainline
-version=7.3-rc2
+version=7.3-rc3
 SUFFIX="${name/*-/}"
 INITRD="initrd-$SUFFIX"
 KERNEL="$name"
@@ -92,7 +92,7 @@ rm -f boot/$INITRD
 mv boot/initrd-$KERNELRELEASE boot/$INITRD" > $PKGMK_ROOT/$name.post-install
 
 # post-remove autogen
-echo "rm -f boot/$INITRD" > $PKGMK_ROOT/$name.post-remove
+echo "cards.fs.rm(\"/boot/$INITRD\")" > $PKGMK_ROOT/$name.post-remove.lua
 }
 devel() {
 cd $PKG
