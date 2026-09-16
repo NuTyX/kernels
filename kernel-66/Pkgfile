@@ -11,7 +11,7 @@ PKGMK_NO_STRIP="yes"
 PKGMK_GROUPS=(devel doc)
 
 name=kernel-66
-version=6.6.156
+version=6.6.157
 _version=${version%.*}
 
 alias=(linux-66)
@@ -81,6 +81,8 @@ echo "if [ -f boot/$INITRD ]; then
     mv boot/initrd-$KERNELRELEASE boot/$INITRD
 fi" > $PKGMK_ROOT/$name.post-install
 
+# post-remove autogen
+echo "cards.fs.rm(\"/boot/$INITRD\")" > $PKGMK_ROOT/$name.post-remove.lua
 }
 devel() {
 cd $PKG
