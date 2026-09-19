@@ -80,17 +80,21 @@ echo "mkinitramfs $KERNELRELEASE
 rm -f boot/$INITRD
 mv boot/initrd-$KERNELRELEASE boot/$INITRD" > $PKGMK_ROOT/$name.post-install
 
-# pos-remove autogen
+# post-remove autogen
 echo "cards.fs.rm(\"/boot/$INITRD\")" > $PKGMK_ROOT/$name.post-remove.lua
 }
 devel() {
 cd $PKG
-rm -r usr/src/linux-${_version}/{block,drivers,fs,ipc,init,net,mm,samples,security,sound,virt}
-find  usr/src/linux-${_version}/ -type f -name "*.o"  \
--o -name "*.ko" -o -name "*.cmd" -o -name "*.gcno" -delete
-mv usr/src/linux-${_version}/arch/x86 usr/src/linux-${_version}/arch/.x86
-rm -rf usr/src/linux-${_version}/arch/*
-mv usr/src/linux-${_version}/arch/.x86 usr/src/linux-${_version}/arch/x86
+rm -r usr/src/$name/{block,drivers,fs,ipc,init,net,mm,samples,security,sound,virt}
+rm -v usr/src/$name/.tmp*
+rm -v usr/src/$name/vmlinux*
+find  usr/src/$name/ -type f -name "*.o" -printf 'Removing %P\n' -delete
+find  usr/src/$name/ -type f -name "*.ko" -printf 'Removing %P\n' -delete
+find  usr/src/$name/ -type f -name "*.cmd" -printf 'Removing %P\n' -delete
+
+mv usr/src/$name/arch/x86 usr/src/$name/arch/.x86
+rm -rf usr/src/$name/arch/*
+mv usr/src/$name/arch/.x86 usr/src/$name/arch/x86
 
 bsdtar -cf \
 $PKGMK_PACKAGE_DIR/$name.devel${PKGMK_PACKAGE_EXT}$version-$release \
