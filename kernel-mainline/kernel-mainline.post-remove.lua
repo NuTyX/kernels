@@ -1,1 +1,1 @@
-cards.fs.rm("boot/initrd-mainline")
+cards.fs.rm("/boot/initrd-mainline")
