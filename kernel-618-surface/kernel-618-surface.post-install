@@ -1,0 +1,3 @@
+mkinitramfs 6.18.18-1-nutyx
+rm -f boot/initrd-surface
+mv boot/initrd-6.18.18-1-nutyx boot/initrd-surface

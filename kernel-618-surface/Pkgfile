@@ -1,0 +1,146 @@
+# git source: https://github.com/linux-surface/linux-surface
+url="https://kernel.org"
+description="The 6.18 longterm support for Microsoft Surface Tablets."
+
+packager="tnut <tnut@nutyx.org>"
+contributors="Spiky"
+makedepends=(bison flex perl gmp mpc libelf diffutils tar
+             rustc)
+run=(nutyx kmod)
+
+PKGMK_IGNORE_UNPACK="yes"
+PKGMK_NO_STRIP="yes"
+PKGMK_GROUPS=(devel doc)
+_version=${version%.*}
+
+name=kernel-618-surface
+version=6.18.18
+_version=${version%.*}
+
+alias=(linux-612-surface)
+INITRD="initrd-${name/*-/}"
+
+# Linux patch version
+[ "${_version}" != "${version}" ] && patchname="patch-$version.xz"
+
+## Download all the sources
+#
+
+source=(init_path.patch
+0001-secureboot.patch
+0002-surface3.patch
+0003-mwifiex.patch
+0004-ath10k.patch
+0005-ipts.patch
+0006-ithc.patch
+0007-surface-sam.patch
+0008-surface-sam-over-hid.patch
+0009-surface-button.patch
+0010-surface-typecover.patch
+0011-surface-shutdown.patch
+0012-surface-gpe.patch
+0013-cameras.patch
+0014-amd-gpio.patch
+0015-rtc.patch
+0016-hid-surface.patch
+0017-dirtyfrag-xfrm-esp-avoid-in-place-decrypt-on-shared-skb-frags.patch
+0018-dirtyfrag-rxrpc-Fix-potential-UAF-after-skb_unshare-failure.patch
+0019-dirtyfrag-rxrpc-Fix-rxrpc_input_call_event-to-only-unshare-DAT.patch
+0020-dirtyfrag-rxrpc-Fix-use-of-wrong-skb-when-comparing-queued-RES.patch
+0021-dirtyfrag-rxrpc-only-handle-RESPONSE-during-service-challenge.patch
+0022-dirtyfrag-rxrpc-Fix-conn-level-packet-handling-to-unshare-RESP.patch
+0023-dirtyfrag-rxrpc-Fix-re-decryption-of-RESPONSE-packets.patch
+0024-dirtyfrag-rxrpc-Also-unshare-DATA-RESPONSE-packets-when-paged-.patch
+$url/pub/linux/kernel/v6.x/linux-${_version}.tar.xz config)
+
+[ -z $patchname ] || source+=" $url/pub/linux/kernel/v6.x/$patchname"
+
+prepare() {
+mkdir -p $PKG/{boot,usr/{share/doc,src,lib/modules}}
+bsdtar -p -o -C $SRC -xf linux-${_version}.tar.xz
+cd linux-${_version}
+
+[ -f $SRC/patch-$version.xz ] && \
+xz -d -c  $SRC/patch-$version.xz | patch -Np1
+
+for i in ../*.patch
+do
+ patch -Np1 -i $i
+done
+
+echo "-$release-nutyx" > localversion
+
+cp ../config .config
+make olddefconfig
+diff -u ../config .config || true
+}
+
+build(){
+cd linux-${_version}
+KERNELRELEASE=$(make -s kernelrelease)
+IMAGENAME=$(make -s image_name)
+# make menuconfig
+make
+cp .config ${PKGMK_ROOT}/config
+ZSTD_CLEVEL=19                 \
+make INSTALL_MOD_PATH=$PKG/usr \
+INSTALL_MOD_STRIP=1            \
+DEPMOD=/dev/null modules_install
+depmod -b $PKG -a $KERNELRELEASE
+KERNEL_VERSION="$(basename $PKG/lib/modules/*)"
+
+cp System.map $PKG/boot/System.map-$KERNELRELEASE
+cp .config $PKG/boot/config-$KERNELRELEASE
+cp $IMAGENAME $PKG/boot/$name
+
+mv $SRC/linux-${_version} $PKG/usr/src/$name
+ln -sv $name $PKG/usr/src/linux-${_version}
+mv $PKG/usr/src/$name/Documentation \
+$PKG/usr/share/doc/$name
+
+# Reorganise files
+cd $PKG/usr/lib/modules
+mv $KERNELRELEASE $name
+ln -sv $name $KERNELRELEASE
+
+rm $KERNELRELEASE/build
+ln -sv /usr/src/$name $KERNELRELEASE/build
+
+# Firmware are in linux-firmware
+rm -rf $PKG/lib/firmware
+
+# post-install autogen
+echo "mkinitramfs $KERNELRELEASE
+rm -f boot/$INITRD
+mv boot/initrd-$KERNELRELEASE boot/$INITRD" > $PKGMK_ROOT/$name.post-install
+
+# post-remove autogen
+echo "cards.fs.rm(\"/boot/$INITRD\")" > $PKGMK_ROOT/$name.post-remove.lua
+}
+devel() {
+cd $PKG
+cd $PKG
+rm -r usr/src/$name/{block,drivers,fs,ipc,init,net,mm,samples,security,sound,virt}
+rm -v usr/src/$name/.tmp*
+rm -v usr/src/$name/vmlinux*
+find  usr/src/$name/ -type f -name "*.o" -printf 'Removing %P\n' -delete
+find  usr/src/$name/ -type f -name "*.ko" -printf 'Removing %P\n' -delete
+find  usr/src/$name/ -type f -name "*.cmd" -printf 'Removing %P\n' -delete
+
+mv usr/src/$name/arch/x86 usr/src/$name/arch/.x86
+rm -rf usr/src/$name/arch/*
+mv usr/src/$name/arch/.x86 usr/src/$name/arch/x86
+
+bsdtar -cf \
+$PKGMK_PACKAGE_DIR/$name.devel${PKGMK_PACKAGE_EXT}$version-$release \
+usr/src
+rm -r usr/src
+}
+
+doc() {
+cd $PKG
+bsdtar -cf \
+$PKGMK_PACKAGE_DIR/$name.doc${PKGMK_PACKAGE_EXT}$version-$release \
+usr/share/doc/$name
+rm -r usr/share
+}
