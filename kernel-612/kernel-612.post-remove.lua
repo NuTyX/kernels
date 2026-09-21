@@ -1,1 +1,1 @@
-cards.rm ("/boot/initrd-612")
+cards.fs.rm("/boot/initrd-612")
