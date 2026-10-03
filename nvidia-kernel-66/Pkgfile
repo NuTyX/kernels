@@ -8,7 +8,7 @@ license="custom"
 
 name=nvidia-kernel-66
 version=615.71.09
-release=2
+release=3
 
 run=(kernel-66)
 KERNELNAME="${name#nvidia-}"
@@ -23,5 +23,5 @@ build()
  SYSSRC="/usr/src/kernel-66" make modules
  install -dm0755 $PKG/usr/lib/modules/$KERNELNAME/kernel/drivers/video
  install -m0644 *.ko $PKG/usr/lib/modules/$KERNELNAME/kernel/drivers/video
- echo "depmod -a $(basename /usr/lib/modules/6.6.*)" > $PKGMK_ROOT/$name.post-install
+ echo "cards.depmod(\"$(basename /usr/lib/modules/6.6.*)\")" > $PKGMK_ROOT/$name.post-install.lua
 }
