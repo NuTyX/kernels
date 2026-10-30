@@ -6,6 +6,7 @@ File: mediatek/WIFI_RAM_CODE_MT7902_1.bin
 Version: 20251212032127
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
 Driver: mt7902 - MediaTek MT7902 bluetooth chipset
@@ -14,5 +15,6 @@ File: mediatek/BT_RAM_CODE_MT7902_1_1_hdr.bin
 Version: 20250826211444
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
