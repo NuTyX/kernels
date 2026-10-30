@@ -10,6 +10,7 @@ File: ti-connectivity/wl18xx-fw-4.bin
 Version: 8.9.0.0.79
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 Info:
 The driver expects to find the firmwares under a ti-connectivity
