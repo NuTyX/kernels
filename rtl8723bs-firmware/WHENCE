@@ -8,5 +8,6 @@ Link: rtlwifi/rtl8723bs_ap_wowlan.bin -> rtl8723bu_ap_wowlan.bin
 Link: rtlwifi/rtl8723bs_wowlan.bin -> rtl8723bu_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
