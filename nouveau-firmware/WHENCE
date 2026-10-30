@@ -496,5 +496,6 @@ Link: nvidia/gb206 -> gb202
 Link: nvidia/gb207 -> gb202
 
 Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
 
 --------------------------------------------------------------------------
