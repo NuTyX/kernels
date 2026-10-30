@@ -6,5 +6,6 @@ File: rtlwifi/rtl8192cfwU_B.bin
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
