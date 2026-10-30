@@ -78,7 +78,10 @@ File: mellanox/mlxsw_spectrum3-30.2016.3900.mfa2
 File: mellanox/mlxsw_spectrum4-34.2016.3900.mfa2
 
 Licence: Redistributable. See LICENSE.mellanox for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.mellanox
 
 Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
+
+SPDX-License-Identifier: GPL-2.0-only OR BSD-3-Clause
 
 --------------------------------------------------------------------------
