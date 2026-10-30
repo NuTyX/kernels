@@ -6,5 +6,6 @@ File: mediatek/mt7622_rom_patch.bin
 Version: 20190114
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
