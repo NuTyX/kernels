@@ -379,4 +379,5 @@ File: i915/xe3p_lpd_dmc.bin
 Version: DMC API/APB ver 2 release 37 for Xe3p_LPD
 
 License: Redistributable. See LICENSE.i915 for details
+SPDX-License-Identifier: LicenseRef-LICENSE.i915
 --------------------------------------------------------------------------
