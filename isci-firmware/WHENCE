@@ -4,5 +4,6 @@ File: isci/isci_firmware.bin
 Source: isci/
 
 Licence: GPLv2. See GPL-2.0 for details.
+SPDX-License-Identifier: GPL-2.0-only
 
 --------------------------------------------------------------------------
