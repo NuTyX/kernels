@@ -8,5 +8,6 @@ Info: Initial version taken from Realtek version
 Link: rtlwifi/rtl8192eefw.bin -> rtl8192eu_nic.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
