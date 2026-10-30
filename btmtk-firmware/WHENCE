@@ -4,6 +4,7 @@ File: mediatek/mt7650.bin
 Link: mt7650.bin -> mediatek/mt7650.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink_a_mediatek_company_firmware
 
 --------------------------------------------------------------------------
 Driver: btmtk - MediaTek Bluetooth Driver
@@ -17,5 +18,6 @@ Version: 20180517181834
 # Version: 7663e2ccn04-2006030247
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
