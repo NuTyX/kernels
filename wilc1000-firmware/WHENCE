@@ -9,5 +9,6 @@ File: atmel/wilc3000_wifi_firmware-1.bin
 Version: 16.1.2
 
 License: Redistributable. See LICENSE.atmel for details
+SPDX-License-Identifier: LicenseRef-LICENSE.atmel
 
 --------------------------------------------------------------------------
