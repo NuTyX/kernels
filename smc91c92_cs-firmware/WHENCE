@@ -5,6 +5,7 @@ File: ositech/Xilinx7OD.bin
 Licence: Allegedly GPL, but no source visible. Marked:
     This file contains the firmware of Seven of Diamonds from OSITECH.
     (Special thanks to Kevin MacPherson of OSITECH)
+SPDX-License-Identifier: GPL-2.0-or-later
 
 Found in hex form in kernel source.
 
