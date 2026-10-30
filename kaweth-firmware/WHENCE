@@ -6,6 +6,7 @@ File: kaweth/trigger_code.bin
 File: kaweth/trigger_code_fix.bin
 
 Licence: Redistributable. See LICENCE.kaweth for details
+SPDX-License-Identifier: BSD-4-Clause
 
 Found in hex form in the kernel source.
 
