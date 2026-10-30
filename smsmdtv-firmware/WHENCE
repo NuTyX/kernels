@@ -15,5 +15,6 @@ File: sms1xxx-stellar-dvbt-01.fw
 File: tdmb_nova_12mhz.inp
 
 Licence: Redistributable. See LICENCE.siano for details
+SPDX-License-Identifier: LicenseRef-LICENCE.siano
 
 --------------------------------------------------------------------------
