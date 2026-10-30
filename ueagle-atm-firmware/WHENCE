@@ -6,5 +6,6 @@ File: ueagle-atm/eagleIV.fw
 Version: 1.0
 
 Licence: Redistributable. See LICENCE.ueagle-atm4-firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ueagle-atm4-firmware
 
 --------------------------------------------------------------------------
