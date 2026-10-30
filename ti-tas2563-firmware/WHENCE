@@ -1,10 +1,13 @@
 Driver: ti-tas2563 - tas2563 firmware
+
 File: ti/audio/tas2563/TAS2XXX3870.bin
 File: ti/audio/tas2563/INT8866RCA2.bin
+
 Link: TAS2XXX3870.bin -> ti/audio/tas2563/TAS2XXX3870.bin
 Link: INT8866RCA2.bin -> ti/audio/tas2563/INT8866RCA2.bin
 
 Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-tspa
 	 Copyright (C) 2023 - 2025 Texas Instruments
 
 --------------------------------------------------------------------------
