@@ -18,5 +18,6 @@ File: rsi/rs9116_wlan_bt_classic.rps
 Version: 1.0.5b
 
 Licence: Redistributable. See LICENSE.rsi for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.rsi
 
 --------------------------------------------------------------------------
