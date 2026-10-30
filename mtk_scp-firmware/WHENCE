@@ -15,5 +15,6 @@ File: mediatek/mt8189/scp.img
 Version: v1.0.0
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
