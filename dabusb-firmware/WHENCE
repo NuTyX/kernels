@@ -4,5 +4,6 @@ File: dabusb/firmware.fw
 File: dabusb/bitstream.bin
 
 Licence: Redistributable. See LICENCE.dabusb for details
+SPDX-License-Identifier: LicenseRef-LICENCE.dabusb
 
 --------------------------------------------------------------------------
