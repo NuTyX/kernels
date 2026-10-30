@@ -13,5 +13,6 @@ File: ar3k/30000/PS_ASIC.pst
 File: ar3k/30000/RamPatch.txt
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
