@@ -27,6 +27,7 @@ File: mrvl/sd8688_helper.bin
 Link: libertas/sd8688_helper.bin -> ../mrvl/sd8688_helper.bin
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 Info:
 Extracted from Linux driver tarballs downloaded from Marvell's
@@ -45,6 +46,7 @@ File: libertas/usb8388_olpc.bin
 Version: 5.110.22.p23
 
 Licence: Redistributable. See LICENCE.OLPC for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.OLPC
 
 Available from http://dev.laptop.org/pub/firmware/libertas/
 
