@@ -9,5 +9,6 @@ Version: 0.0.2_P69
 Link: mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink_a_mediatek_company_firmware
 
 --------------------------------------------------------------------------
