@@ -4,5 +4,6 @@ Info: Taken from Realtek version rtl_92ce_92se_92de_8723ae_88ee_linux_mac80211_0
 File: rtlwifi/rtl8188efw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
