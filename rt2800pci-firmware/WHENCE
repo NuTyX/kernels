@@ -7,6 +7,7 @@ File: rt3290.bin
 Version: 37
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
 from http://www.mediatek.com/en/downloads1/downloads/
