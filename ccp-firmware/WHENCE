@@ -15,5 +15,6 @@ Version: 2025-2-20
 File: amd/README.md
 
 License: Redistributable. See LICENSE.amd-sev for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amd-sev
 
 --------------------------------------------------------------------------
