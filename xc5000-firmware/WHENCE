@@ -7,5 +7,6 @@ File: dvb-fe-xc5000c-4.1.30.7.fw
 Version: 4.1.30.7
 
 Licence: Redistributable. See LICENCE.xc5000 and LICENCE.xc5000c for details
+SPDX-License-Identifier: LicenseRef-LICENCE.xc5000
 
 --------------------------------------------------------------------------
