@@ -13,6 +13,7 @@ File: mwl8k/fmimage_8764_ap-1.fw
 Version: 7.4.0.9
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.Marvell
 
 Info:
 8687 images downloaded from Marvell's "Extranet" with permission.
