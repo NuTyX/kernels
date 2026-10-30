@@ -4,5 +4,6 @@ Info: Sent to Larry Finger by Realtek engineer Ping-Ke Shih <pkshih@realtek.com>
 File: rtlwifi/rtl8822befw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
