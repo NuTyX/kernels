@@ -1,0 +1,9 @@
+Driver: tegra-ofa - NVIDIA Tegra OFA driver
+
+File: nvidia/tegra234/ofa.bin
+Version: l4t-r39.2.1
+
+Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
+
+--------------------------------------------------------------------------
