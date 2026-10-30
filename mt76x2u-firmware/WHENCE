@@ -7,5 +7,6 @@ File: mediatek/mt7662u_rom_patch.bin
 Version: 0.0.2_P48
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
