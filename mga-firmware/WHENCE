@@ -4,6 +4,7 @@ File: matrox/g200_warp.fw
 File: matrox/g400_warp.fw
 
 Licence: Redistributable. See LICENSE.mga for details.
+SPDX-License-Identifier: MIT
 
 Found in hex form in kernel source.
 
