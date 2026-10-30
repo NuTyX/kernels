@@ -4,6 +4,7 @@ File: sxg/saharadownloadB.sys
 File: sxg/saharadbgdownloadB.sys
 
 Licence: Redistributable. See LICENCE.alacritech for details
+SPDX-License-Identifier: LicenseRef-LICENCE.alacritech
 
 Found in hex form in kernel source.
 
