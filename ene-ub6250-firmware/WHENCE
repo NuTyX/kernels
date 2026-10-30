@@ -8,5 +8,6 @@ File: ene-ub6250/msp_rdwr.bin
 File: ene-ub6250/ms_rdwr.bin
 
 Licence: Redistributable. See LICENCE.ene_firmware for details.
+SPDX-License-Identifier: ISC
 
 --------------------------------------------------------------------------
