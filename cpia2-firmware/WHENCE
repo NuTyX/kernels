@@ -6,6 +6,7 @@ Licence: Allegedly GPLv2+, but no source visible. Marked:
 	Copyright (C) 2001 STMicroelectronics, Inc.
 	Contact:  steve.miller@st.com
 	Description: This file contains patch data for the CPiA2 (stv0672) VP4.
+SPDX-License-Identifier: GPL-2.0-or-later
 
 Found in hex form in kernel source.
 
