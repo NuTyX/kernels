@@ -6,6 +6,7 @@ File: intel/dsp_fw_release_v3402.bin
 Version: 9.21.00.3402_161
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
@@ -13,6 +14,7 @@ File: intel/dsp_fw_bxtn_v3366.bin
 Version: 9.22.01.3366_157
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/dsp_fw_kbl_v701.bin
 Version: 9.21.00.701
@@ -30,6 +32,7 @@ File: intel/dsp_fw_kbl_v3402.bin
 Version: 9.21.00.3402_161
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 File: intel/dsp_fw_glk_v1814.bin
 Version: 9.92.01.1814
@@ -46,5 +49,6 @@ File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
 
 License: Redistributable. See LICENCE.adsp_sst for details
+SPDX-License-Identifier: LicenseRef-LICENCE.adsp_sst
 
 --------------------------------------------------------------------------
