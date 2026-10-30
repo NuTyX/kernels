@@ -15,5 +15,6 @@ Version: 2026-04-16
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
+SPDX-License-Identifier: LicenseRef-LICENSE.amd-ucode
 
 --------------------------------------------------------------------------
