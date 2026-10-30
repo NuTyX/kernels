@@ -8,5 +8,6 @@ File: s5p-mfc-v8.fw
 File: s5p-mfc-v12.fw
 
 Licence: Redistributable. See LICENSE.s5p-mfc for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.s5p-mfc
 
 --------------------------------------------------------------------------
