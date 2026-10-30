@@ -18,10 +18,12 @@ File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
 Version v2.04 (2015-08-31)
 File: qcom/apq8096/a530_zap.mbn
+Version: v0.09
 Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/qrb4210/a610_zap.mbn
+Version: v0.20
 File: qcom/qcs615/a612_zap.mbn
-Version: v0.19
+Version: v0.21
 File: qcom/a612_rgmu.bin
 Version: v2.11
 File: qcom/a623_gmu.bin
@@ -32,6 +34,7 @@ File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 Version: v2.07
 File: qcom/sdm845/a630_zap.mbn
+Version: v0.19
 File: qcom/a640_gmu.bin
 Version: v1.05
 File: qcom/sm8150/a640_zap.mbn
@@ -41,8 +44,9 @@ Version: v2.1.8
 File: qcom/a650_sqe.fw
 Version: v1.12
 File: qcom/sm8250/a650_zap.mbn
+Version: v0.10
 File: qcom/a660_gmu.bin
-Version: v3.01.0B
+Version: v3.01.0A
 File: qcom/a660_sqe.fw
 Version: v1.12
 File: qcom/qcm6490/a660_zap.mbn
@@ -53,10 +57,10 @@ File: qcom/a663_gmu.bin
 Version: v3.05.01
 File: qcom/sa8775p/a663_zap.mbn
 Version: v0.09
-File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
 File: qcom/a702_sqe.fw
 Version: v0.49
 File: qcom/qcm2290/a702_zap.mbn
+Version: v0.05
 File: qcom/shikra/a704_zap.mbn
 Version: v0.05
 File: qcom/a730_sqe.fw
@@ -91,6 +95,12 @@ File: qcom/gen71500_sqe.fw
 Version: v1.81
 File: qcom/x1p42100/gen71500_zap.mbn
 Version: v0.13
+File: qcom/gen71700_gmu.bin
+Version: v4.09.00
+File: qcom/gen71700_sqe.fw
+Version: v1.79
+File: qcom/eliza/gen71700_zap.mbn
+Version: v0.15
 File: qcom/gen80000_aqe.fw
 Version: v0.14
 File: qcom/gen80000_gmu.bin
@@ -115,11 +125,34 @@ File: qcom/gen80100_sqe.fw
 Version: v1.00
 File: qcom/glymur/gen80100_zap.mbn
 Version: v0.03
+File: qcom/gen81100_aqe.fw
+Version: v0.36
+File: qcom/gen81100_gmu.bin
+Version: v5.06.17
+File: qcom/gen81100_sqe.fw
+Version: v1.09
+File: qcom/hawi/gen81100_zap.mbn
+Version: v0.05
+Link: qcom/gen81400_gmu.bin -> gen81100_gmu.bin
+Link: qcom/maili/gen81400_zap.mbn -> ../hawi/gen81100_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+# Adreno ZAP shaders for Dell
+File: qcom/x1e80100/dell/xps13-9345/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.dell and NOTICE.qcom for details
+
+# Adreno ZAP shaders for Lenovo
+File: qcom/sc8280xp/LENOVO/21BX/qcdxkmsuc8280.mbn
+File: qcom/x1e80100/LENOVO/21N1/qcdxkmsuc8380.mbn
+File: qcom/x1e80100/LENOVO/83ED/qcdxkmsuc8380.mbn
+
+Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
 
 --------------------------------------------------------------------------
 Driver: adreno - Qualcomm Adreno GPU firmware
@@ -128,6 +161,7 @@ File: qcom/yamato_pfp.fw
 File: qcom/yamato_pm4.fw
 
 Licence: Redistributable, BSD-3-Clause licence, See LICENSE.qcom_yamato for details
+SPDX-License-Identifier: BSD-3-Clause
 
 Info:
 Binary files generated from header files in EfikaMX kernel sources. A prefix of
