@@ -3,6 +3,7 @@ Driver: r128 - ATI Rage 128
 File: r128/r128_cce.bin
 
 Licence: MIT
+SPDX-License-Identifier: MIT
 
 Copyright 2000 Advanced Micro Devices, Inc.
 
