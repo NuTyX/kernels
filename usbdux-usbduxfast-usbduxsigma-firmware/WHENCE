@@ -6,6 +6,8 @@ File: usbduxsigma_firmware.bin
 Source: usbdux/
 
 Licence: GPLv2 or later. See GPL-2.0 for details.
+SPDX-License-Identifier: GPL-2.0-or-later
+
 Provided from the author, Bernd Porr <BerndPorr@f2s.com>
 
 --------------------------------------------------------------------------
