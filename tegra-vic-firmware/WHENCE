@@ -1,16 +1,28 @@
 Driver: tegra-vic - NVIDIA Tegra VIC driver
 
 File: nvidia/tegra124/vic03_ucode.bin
+Version: l4t-r21.8.0
 Link: nvidia/tegra124/vic.bin -> vic03_ucode.bin
 
 File: nvidia/tegra210/vic04_ucode.bin
+Version: l4t-r32.7.6
 Link: nvidia/tegra210/vic.bin -> vic04_ucode.bin
 
 File: nvidia/tegra186/vic04_ucode.bin
+Version: l4t-r32.7.6
 Link: nvidia/tegra186/vic.bin -> vic04_ucode.bin
 
 File: nvidia/tegra194/vic.bin
+Version: l4t-r35.6.5
+
+File: nvidia/tegra234/vic.bin
+Version: l4t-r39.2.1
+
+File: nvidia/tegra264/vic.bin
+File: nvidia/tegra264/vic.bin.desc
+Version: l4t-r39.2.1
 
 Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
 
 --------------------------------------------------------------------------
