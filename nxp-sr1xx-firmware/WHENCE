@@ -3,5 +3,6 @@ File: nxp/sr150_fw.bin
 Version: 44.00.02
 
 Licence: Redistributable. See LICENSE.nxp for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp
 Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
 --------------------------------------------------------------------------
