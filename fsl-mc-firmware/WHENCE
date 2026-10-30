@@ -17,5 +17,6 @@ File: dpaa2/mc/mc_10.28.1_ls2088a.itb
 File: dpaa2/mc/mc_10.28.1_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp_mc_firmware
 
 --------------------------------------------------------------------------
