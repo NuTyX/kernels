@@ -31,6 +31,7 @@ File: ath6k/AR6002/athwlan.bin.z77
 File: ath6k/AR6002/data.patch.hw2_0.bin
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 Driver: ath6kl - Atheros support for AR6003 WiFi-Bluetooth combo module
@@ -44,6 +45,7 @@ File: ath6k/AR6003.1/hw2.1.1/endpointping.bin
 File: ath6k/AR6003.1/hw2.1.1/otp.bin
 
 License: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
 Driver: ath6kl - Atheros support for AR3001 WiFi-Bluetooth combo module
@@ -55,5 +57,6 @@ File: ar3k/30101coex/PS_ASIC.pst
 File: ar3k/30101coex/RamPatch.txt
 
 License: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
