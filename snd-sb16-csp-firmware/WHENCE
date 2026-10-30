@@ -13,5 +13,6 @@ Licence: Allegedly GPLv2+, but no source visible. Marked:
  */
 
 Found in hex form in kernel source.
+SPDX-License-Identifier: GPL-2.0-or-later
 
 --------------------------------------------------------------------------
