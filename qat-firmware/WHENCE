@@ -31,5 +31,6 @@ File: intel/qat/qat_420xx_mmp.bin
 Link: qat_420xx_mmp.bin -> intel/qat/qat_420xx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.qat_firmware
 
 --------------------------------------------------------------------------
