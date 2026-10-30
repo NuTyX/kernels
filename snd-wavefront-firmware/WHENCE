@@ -3,6 +3,7 @@ Driver: snd-wavefront - ISA WaveFront sound card
 File: yamaha/yss225_registers.bin
 
 Licence: Allegedly GPLv2+, but no source visible.
+SPDX-License-Identifier: GPL-2.0-or-later
 
 Found in hex form in kernel source, with the following comment:
    Copyright (c) 1998-2002 by Paul Davis <pbd@op.net>
