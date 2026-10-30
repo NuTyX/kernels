@@ -1,4 +1,4 @@
-description="qca - Qualcomm Atheros Bluetooth support for WCN3950 chips"
+description="qca - Qualcomm Atheros Bluetooth support for WCN7750 chips"
 url='https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary'
 
 packager="tnut <tnut@nutyx.org>"
@@ -9,7 +9,7 @@ license="Custom"
 set=(linux-firmware)
 
 name=qca-firmware
-version=20260622
+version=20261019
 
 makedepends=(rdfind)
 source=(WHENCE
