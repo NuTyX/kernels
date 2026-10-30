@@ -1,13 +1,14 @@
 Driver: wfx - Silicon Labs Wi-Fi Transceiver
 
 File: wfx/wfm_wf200_C0.sec
-Version: 3.17
+Version: 3.18
 
 File: wfx/brd4001a.pds
 File: wfx/brd8022a.pds
 File: wfx/brd8023a.pds
 
 Licence: Redistributable. See LICENCE.wf200 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.wf200
 
 Info:
 The firmware itself originates from https://github.com/SiliconLabs/wfx-firmware
