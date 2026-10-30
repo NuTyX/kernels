@@ -49,5 +49,6 @@ File: mediatek/mt7981_eeprom_mt7976_dbdc.bin
 Version: 20260515
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
