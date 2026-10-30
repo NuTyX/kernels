@@ -6,5 +6,6 @@ Version: 1.0
 Fix EEPROM radio table issue and change PID to 3005
 
 Licence: Redistributable. See LICENCE.atheros_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.atheros_firmware
 
 --------------------------------------------------------------------------
