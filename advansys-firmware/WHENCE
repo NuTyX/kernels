@@ -6,6 +6,7 @@ File: advansys/38C0800.bin
 File: advansys/38C1600.bin
 
 Licence: Redistributable. See LICENCE.advansys for details
+SPDX-License-Identifier: LicenseRef-LICENCE.advansys
 
 Found in hex form in kernel source.
 
