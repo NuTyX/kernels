@@ -7,6 +7,7 @@ Version: 2.14 (TI_P6_15.93)
 File: ti-connectivity/TIInit_7.2.31.bts
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 Info:
 	TIInit_7.2.31.bts version 7.2.31
