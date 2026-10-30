@@ -3,6 +3,7 @@ Driver: tehuti - Tehuti Networks 10G Ethernet
 File: tehuti/bdx.bin
 
 Licence: Redistributable. See LICENSE.tehuti for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.tehuti
 
 Found in hex form in kernel source.
 
