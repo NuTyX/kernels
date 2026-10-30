@@ -3,6 +3,7 @@ Driver: cs42l43 - CS42L43 ALSA audio driver
 File: cs42l43.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.cirrus
 
 Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
