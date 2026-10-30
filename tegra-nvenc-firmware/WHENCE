@@ -1,0 +1,21 @@
+Driver: tegra-nvenc - NVIDIA Tegra NVENC driver
+
+File: nvidia/tegra124/nvenc.bin
+Version: l4t-r21.8.0
+
+File: nvidia/tegra210/nvenc.bin
+Version: l4t-r32.7.6
+
+File: nvidia/tegra186/nvenc.bin
+Version: l4t-r32.7.6
+
+File: nvidia/tegra194/nvenc.bin
+Version: l4t-r35.6.5
+
+File: nvidia/tegra234/nvenc.bin
+Version: l4t-r39.2.1
+
+Licence: Redistributable. See LICENCE.nvidia for details
+SPDX-License-Identifier: LicenseRef-LICENCE.nvidia
+
+--------------------------------------------------------------------------
