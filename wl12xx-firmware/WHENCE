@@ -50,6 +50,7 @@ Link: ti-connectivity/wl12xx-nvs.bin -> wl127x-nvs.bin
 Link: ti-connectivity/wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 Info:
 The NVS file includes two parts:
