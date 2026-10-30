@@ -4,6 +4,7 @@ File: intel/fw_sst_0f28.bin
 File: intel/fw_sst_0f28_ssp0.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.fw_sst_0f28
 
 --------------------------------------------------------------------------
 Driver: snd_intel_sst_core
@@ -12,5 +13,6 @@ File: intel/fw_sst_22a8.bin
 Version: 01.0B.02.02
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.fw_sst_0f28
 
 --------------------------------------------------------------------------
