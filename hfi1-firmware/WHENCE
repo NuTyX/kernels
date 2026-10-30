@@ -10,5 +10,6 @@ File: hfi1_sbus.fw
 Version: 0x10130001
 
 Licence: Redistributable. See LICENSE.hfi1_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.hfi1_firmware
 
 --------------------------------------------------------------------------
