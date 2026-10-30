@@ -7,6 +7,7 @@ File: whiteheat_loader.fw
 
 Licence: Allegedly GPLv2, but no source visible. Marked:
 	 Copyright (C) 2000-2002  ConnectTech Inc
+SPDX-License-Identifier: GPL-2.0-only
 
 Debug loader claims the following behaviour:
 	Port 1 LED flashes when the vend_ax program is running
