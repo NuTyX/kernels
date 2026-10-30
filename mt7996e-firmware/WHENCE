@@ -70,5 +70,6 @@ File: mediatek/mt7996/mt7990_eeprom_2i5i.bin
 Version: 20240906
 
 Licence: Redistributable. See LICENCE.mediatek for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.mediatek
 
 --------------------------------------------------------------------------
