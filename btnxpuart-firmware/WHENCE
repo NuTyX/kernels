@@ -15,6 +15,7 @@ File: nxp/uartspi_n61x_v1.bin.se
 Version: 18.99.1.p154.40
 
 Licence: Redistributable. See LICENSE.nxp for details
+SPDX-License-Identifier: LicenseRef-LICENSE.nxp
 
 Originates from https://github.com/nxp-imx/imx-firmware/tree/lf-6.1.22_2.0.0/nxp
 
