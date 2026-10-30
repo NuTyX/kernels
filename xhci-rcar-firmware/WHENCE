@@ -5,5 +5,6 @@ File: r8a779x_usb3_v2.dlmem
 File: r8a779x_usb3_v3.dlmem
 
 Licence: Redistributable. See LICENCE.r8a779x_usb3 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.r8a779x_usb3
 
 --------------------------------------------------------------------------
