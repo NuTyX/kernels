@@ -29,6 +29,7 @@ File: radeon/RV710_pfp.bin
 File: radeon/RV710_me.bin
 
 Licence: MIT
+SPDX-License-Identifier: MIT
 
 Copyright 2007-2009 Advanced Micro Devices, Inc.
 
@@ -259,5 +260,6 @@ File: radeon/banks_k_2_smc.bin
 File: radeon/si58_mc.bin
 
 Licence: Redistributable. See LICENSE.radeon for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.radeon
 
 --------------------------------------------------------------------------
