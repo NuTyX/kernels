@@ -4,6 +4,7 @@ File: adaptec/starfire_rx.bin
 File: adaptec/starfire_tx.bin
 
 Licence: Allegedly GPLv2, but no source visible.
+SPDX-License-Identifier: GPL-2.0-only
 
 Found in hex form in kernel source, with the following notice:
 
