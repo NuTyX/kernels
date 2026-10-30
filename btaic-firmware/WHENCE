@@ -1,0 +1,13 @@
+Driver: btaic - AIC8800D80 Bluetooth support
+
+File: aic/aic8800d80/fw_adid_8800d80_u02.bin
+Version: v6.9.1.1
+File: aic/aic8800d80/fw_patch_8800d80_u02.bin
+Version: v6.9.1.1
+File: aic/aic8800d80/fw_patch_table_8800d80_u02.bin
+Version: v6.9.1.1
+
+Licence: Redistributable. See LICENSE.aic for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.aic
+
+--------------------------------------------------------------------------
