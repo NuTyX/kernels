@@ -10,6 +10,7 @@ Source: cis/src/COMpad2.cis
 Source: cis/src/COMpad4.cis
 
 Licence: Dual GPLv2/MPL
+SPDX-License-Identifier: GPL-2.0-only OR MPL-1.1
 
 Originally developed by the pcmcia-cs project
 Copyright (C) 1998, 1999, 2000 David A. Hinds
@@ -22,6 +23,7 @@ File: cis/SW_7xx_SER.cis
 File: cis/SW_8xx_SER.cis
 
 Licence: GPLv3. See GPL-3.0-only for details.
+SPDX-License-Identifier: GPL-3.0-only
 
 Copyright Sierra Wireless
 
