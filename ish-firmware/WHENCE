@@ -5,8 +5,13 @@ File: intel/ish/ish_ptl.bin
 Version: 5.8.1.7778
 File: intel/ish/ish_wcl.bin
 Version: 5.8.4.7784
+File: intel/ish/ish_nvlh.bin
+Version: 5.8.2.7822
+File: intel/ish/ish_nvls.bin
+Version: 5.8.3.7819
 
 License: Redistributable. See LICENSE.intel for details
+SPDX-License-Identifier: LicenseRef-LICENSE.intel
 
 File: LENOVO/ish/ish_lnlm_lenovo_X9-14_2025_5.8.36.09092.bin
 Link: intel/ish/ish_lnlm_53c4ffad_a672a235.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X9-14_2025_5.8.36.09092.bin
@@ -33,6 +38,7 @@ Info: product_family - "ThinkPad X1 Carbon Gen 13"
 Version: 5.8.4.7720
 
 License: Redistributable. See LICENCE.lenovo for details
+SPDX-License-Identifier: LicenseRef-LICENCE.lenovo
 
 File: HP/ish/ish_lnlm_12128606_f9751b71.bin
 Link: intel/ish/ish_lnlm_12128606_f9751b71.bin -> ../../HP/ish/ish_lnlm_12128606_f9751b71.bin
@@ -42,6 +48,7 @@ File: HP/ish/ish_ptl_12128606_581.7779.0.bin
 Version: 5.8.1.7779
 
 License: Redistributable. See LICENCE.HP for details
+SPDX-License-Identifier: LicenseRef-LICENCE.HP
 
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
@@ -51,5 +58,6 @@ File: dell/ish/ish_ptl_39ceeaf8_581.7783.0.bin
 Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7783.0.bin
 
 License: Redistributable. See LICENSE.dell for details
+SPDX-License-Identifier: LicenseRef-LICENSE.dell
 
 --------------------------------------------------------------------------
