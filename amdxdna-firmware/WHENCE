@@ -14,5 +14,6 @@ File: amdnpu/17f0_11/npu.sbin.1.1.2.65
 Link: amdnpu/17f0_11/npu_7.sbin -> npu.sbin.1.1.2.65
 
 Licence: Redistributable. See LICENSE.amdnpu for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.amdnpu
 
 --------------------------------------------------------------------------
