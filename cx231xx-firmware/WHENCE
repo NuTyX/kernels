@@ -17,5 +17,6 @@ Driver: cx23840 - Conexant sideport Broadcast A/V decoder
 File: v4l-cx25840.fw
 
 Licence: Redistributable. See LICENSE.conexant for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.conexant
 
 --------------------------------------------------------------------------
