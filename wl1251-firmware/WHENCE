@@ -6,6 +6,7 @@ Version: 4.0.4.3.7
 File: ti-connectivity/wl1251-nvs.bin
 
 Licence: Redistributable. See LICENCE.wl1251 for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.wl1251
 
 Info:
 The published NVS files are for testing only.  Every device needs to
