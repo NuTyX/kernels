@@ -4,5 +4,6 @@ File: airoha/EthMD32.dm.bin
 File: airoha/EthMD32.DSP.bin
 
 Licence: Redistributable. See LICENSE.airoha for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.airoha
 
 --------------------------------------------------------------------------
