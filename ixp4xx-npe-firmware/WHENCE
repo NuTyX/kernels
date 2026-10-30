@@ -5,5 +5,6 @@ File: ixp4xx/NPE-B
 File: ixp4xx/NPE-C
 Version: date = February 26, 2007
 License: Redistributable. See LICENSE.ixp4xx for details
+SPDX-License-Identifier: LicenseRef-LICENSE.ixp4xx
 
 --------------------------------------------------------------------------
