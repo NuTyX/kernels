@@ -1,4 +1,4 @@
-description="cs42l45 - CS42L45 SDCA audio driver"
+description="cs42l45 - CS42L45 SDCA audio driver family (includes cs42l49)"
 url='https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary'
 
 packager="tnut <tnut@nutyx.org>"
@@ -9,7 +9,7 @@ license="Custom"
 set=(linux-firmware)
 
 name=cs42l45-firmware
-version=20260622
+version=20261019
 
 makedepends=(rdfind)
 source=(WHENCE
