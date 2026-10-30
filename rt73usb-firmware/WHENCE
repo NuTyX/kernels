@@ -3,6 +3,7 @@ Driver: rt73usb - Ralink RT2571W, RT2671 wireless MACs
 File: rt73.bin
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ralink-firmware.txt
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
