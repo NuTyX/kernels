@@ -22,5 +22,6 @@ File: qed/qed_init_values_zipped-8.42.2.0.bin
 File: qed/qed_init_values_zipped-8.59.1.0.bin
 
 Licence: Redistributable. See LICENSE.qed for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.qed
 
 --------------------------------------------------------------------------
