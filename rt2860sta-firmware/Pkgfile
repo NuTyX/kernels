@@ -9,7 +9,7 @@ license="Custom"
 set=(linux-firmware)
 
 name=rt2860sta-firmware
-version=20260622
+version=20261019
 
 makedepends=(rdfind)
 run=(rt2800usb-firmware)
