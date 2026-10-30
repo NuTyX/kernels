@@ -13,5 +13,6 @@ File: liquidio/lio_410nv_nic.bin
 Version: v1.7.2
 
 Licence: Redistributable. See LICENCE.cavium_liquidio for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cavium_liquidio
 
 --------------------------------------------------------------------------
