@@ -22,5 +22,6 @@ Link: cxgb4/t5-config.txt -> configs/t5-config-default.txt
 Link: cxgb4/t6-config.txt -> configs/t6-config-default.txt
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENCE.chelsio_firmware
 
 --------------------------------------------------------------------------
