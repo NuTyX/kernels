@@ -8,6 +8,7 @@ Info: firmware 9/18/04
 
 Licence: Allegedly GPLv2+, but no source visible. Marked:
 	 Copyright (C) 2004 Texas Instruments
+SPDX-License-Identifier: GPL-2.0-or-later
 
 Found in hex form in kernel source.
 
@@ -19,6 +20,7 @@ File: mts_gsm.fw
 File: mts_edge.fw
 
 Licence: Redistributable. See LICENCE.multitech for details
+SPDX-License-Identifier: LicenseRef-LICENCE.multitech
 
 Copyright (C) 2005 Multi-Tech Systems, Inc.
 
