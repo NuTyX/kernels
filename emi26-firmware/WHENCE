@@ -13,5 +13,6 @@ File: emi26/loader.fw
 Converted from Intel HEX files, used in our binary representation of ihex.
 
 Licence: Redistributable. See LICENCE.emi26 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.emi26
 
 --------------------------------------------------------------------------
