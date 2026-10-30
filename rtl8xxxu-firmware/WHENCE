@@ -53,5 +53,6 @@ File: rtlwifi/rtl8192fufw.bin
 Version: 7.3
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
