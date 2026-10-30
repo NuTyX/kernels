@@ -53,6 +53,8 @@ Version: v1.0.4
 Info: DATE=05.06.2026
 
 Licence: Redistributable. See LICENCE.linaro for details
+SPDX-License-Identifier: BSD-3-Clause
+
 Originates from https://github.com/linux-msm/audioreach-topology.git
 
 --------------------------------------------------------------------------
