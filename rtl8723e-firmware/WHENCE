@@ -5,5 +5,6 @@ File: rtlwifi/rtl8723fw.bin
 File: rtlwifi/rtl8723fw_B.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
