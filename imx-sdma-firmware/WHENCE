@@ -6,5 +6,6 @@ File: imx/sdma/sdma-imx7d.bin
 Version: 4.2
 
 Licence: Redistributable. See LICENSE.sdma_firmware for details
+SPDX-License-Identifier: LicenseRef-LICENSE.sdma_firmware
 
 --------------------------------------------------------------------------
