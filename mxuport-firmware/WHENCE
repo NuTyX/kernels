@@ -15,5 +15,6 @@ File: moxa/moxa-up-mux50u.fw
 Version: v2.0.3
 
 License: Redistributable. See LICENCE.moxa for details
+SPDX-License-Identifier: LicenseRef-LICENCE.moxa
 
 --------------------------------------------------------------------------
