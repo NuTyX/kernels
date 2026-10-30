@@ -6,6 +6,7 @@ Link: s2250.fw -> go7007/s2250-2.fw
 Link: s2250_loader.fw -> go7007/s2250-1.fw
 
 Licence: Redistributable. See LICENCE.sensoray for details
+SPDX-License-Identifier: LicenseRef-LICENCE.sensoray
 
 File: go7007/go7007fw.bin
 File: go7007/go7007tv.bin
@@ -15,5 +16,6 @@ File: go7007/px-tv402u.fw
 File: go7007/wis-startrek.fw
 
 Licence: Redistributable. See LICENCE.go7007 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.go7007
 
 --------------------------------------------------------------------------
