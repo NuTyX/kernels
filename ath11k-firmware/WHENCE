@@ -103,6 +103,7 @@ Version: WLAN.HSP.1.1-04866.5-QCAHSPSWPL_V1_V2_SILICONZ_IOE-1
 File: ath11k/QCA6698AQ/hw2.1/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
+SPDX-License-Identifier: LicenseRef-LICENSE.QualcommAtheros_ath10k
 
 File: ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
 Version: WLAN.MSL.2.0.c2-00204-QCAMSLSWPLZ-1
@@ -110,5 +111,6 @@ Link: qcom/qcm6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
 Link: qcom/qcs6490/wpss.mbn -> ../../ath11k/WCN6750/hw1.0/qcm6490/wpss.mbn
 
 Licence: Redistributable. See LICENSE.qcom and NOTICE.qcom for details
+SPDX-License-Identifier: LicenseRef-LICENSE.qcom
 
 --------------------------------------------------------------------------
