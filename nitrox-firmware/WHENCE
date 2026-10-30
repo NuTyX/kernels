@@ -7,5 +7,6 @@ File: cavium/cnn55xx_se.fw
 Version: v10
 
 Licence: Redistributable. See LICENCE.cavium for details
+SPDX-License-Identifier: LicenseRef-LICENCE.cavium
 
 --------------------------------------------------------------------------
