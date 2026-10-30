@@ -4,6 +4,7 @@ File: ctefx.bin
 File: ctspeq.bin
 
 Licence: Redistributable. See LICENCE.ca0132 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.ca0132
 
 Info: Found also in alsa-firmware package.
 
