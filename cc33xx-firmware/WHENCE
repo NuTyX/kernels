@@ -8,6 +8,7 @@ File: ti-connectivity/cc33xx-conf.bin
 Version: 1.7.0.120
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.ti-connectivity
 
 The cc33xx-conf.bin is a binary containing two parts: radio calibration
 and hardware configuration. The binary can be modified using the tool
