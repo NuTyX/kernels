@@ -17,5 +17,6 @@ File: meson/vdec/sm1_hevc_mmu.bin
 File: meson/vdec/sm1_vp9_mmu.bin
 
 Licence: Redistributable. See LICENSE.amlogic_vdec for details.
+SPDX-License-Identifier: LicenseRef-LICENSE.amlogic_vdec
 
 --------------------------------------------------------------------------
