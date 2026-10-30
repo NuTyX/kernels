@@ -1,0 +1,9 @@
+Driver: phy-rockchip-snps-pcie3 - ROCKCHIP PCIe3 PHY firmware
+
+File: rockchip/pcie3-t22-c8g2-1.6.3-202a-p7.fw
+Version: 1.6.3
+
+Licence: Redistributable. See LICENCE.rockchip for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rockchip
+
+--------------------------------------------------------------------------
