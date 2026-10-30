@@ -4,5 +4,6 @@ File: dvb-fe-xc4000-1.4.1.fw
 Version: 1.4.1
 
 Licence: Redistributable. See LICENCE.xc4000 for details
+SPDX-License-Identifier: LicenseRef-LICENCE.xc4000
 
 --------------------------------------------------------------------------
