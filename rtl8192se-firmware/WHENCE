@@ -4,5 +4,6 @@ Info: updated from rtl_92ce_92se_92de_linux_mac80211_0004.0816.2011 driver versi
 File: rtlwifi/rtl8192sefw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+SPDX-License-Identifier: LicenseRef-LICENCE.rtlwifi_firmware.txt
 
 --------------------------------------------------------------------------
