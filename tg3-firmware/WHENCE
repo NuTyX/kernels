@@ -6,6 +6,7 @@ File: tigon/tg3_tso5.bin
 File: tigon/tg357766.bin
 
 Licence: Redistributable. See LICENCE.tigon for details
+SPDX-License-Identifier: LicenseRef-LICENCE.tigon
 
 Found in hex form in kernel source.
 
