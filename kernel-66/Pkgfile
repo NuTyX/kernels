@@ -11,14 +11,13 @@ PKGMK_NO_STRIP="yes"
 PKGMK_GROUPS=(devel doc)
 
 name=kernel-66
-version=6.6.159
-release=1
+version=6.6.162
 _version=${version%.*}
 
 alias=(linux-66)
 INITRD="initrd-${name/*-/}"
 
-source=(init_path.patch
+source=(init_path.patch skbuff.patch
         $url/pub/linux/kernel/v6.x/linux-${_version}.tar.xz config)
 if [ "${_version}" != "${version}" ]; then
   patchname="patch-$version.xz"
@@ -34,6 +33,7 @@ cd linux-${_version}
 xz -d -c  $SRC/patch-$version.xz | patch -Np1
 
 patch -Np1 -i ../init_path.patch
+patch -Np1 -i ../skbuff.patch
 
 echo "-$release-nutyx" > localversion
 
