@@ -14,7 +14,7 @@ PKGMK_GROUPS=(devel doc)
 _version=${version%.*}
 
 name=kernel-618-surface
-version=6.18.18
+version=6.18.63
 _version=${version%.*}
 
 alias=(linux-618-surface)
@@ -43,14 +43,6 @@ source=(init_path.patch
 0014-amd-gpio.patch
 0015-rtc.patch
 0016-hid-surface.patch
-0017-dirtyfrag-xfrm-esp-avoid-in-place-decrypt-on-shared-skb-frags.patch
-0018-dirtyfrag-rxrpc-Fix-potential-UAF-after-skb_unshare-failure.patch
-0019-dirtyfrag-rxrpc-Fix-rxrpc_input_call_event-to-only-unshare-DAT.patch
-0020-dirtyfrag-rxrpc-Fix-use-of-wrong-skb-when-comparing-queued-RES.patch
-0021-dirtyfrag-rxrpc-only-handle-RESPONSE-during-service-challenge.patch
-0022-dirtyfrag-rxrpc-Fix-conn-level-packet-handling-to-unshare-RESP.patch
-0023-dirtyfrag-rxrpc-Fix-re-decryption-of-RESPONSE-packets.patch
-0024-dirtyfrag-rxrpc-Also-unshare-DATA-RESPONSE-packets-when-paged-.patch
 $url/pub/linux/kernel/v6.x/linux-${_version}.tar.xz config)
 
 [ -z $patchname ] || source+=" $url/pub/linux/kernel/v6.x/$patchname"
