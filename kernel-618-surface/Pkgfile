@@ -14,7 +14,7 @@ PKGMK_GROUPS=(devel doc)
 _version=${version%.*}
 
 name=kernel-618-surface
-version=6.18.63
+version=6.18.64
 _version=${version%.*}
 
 alias=(linux-618-surface)
