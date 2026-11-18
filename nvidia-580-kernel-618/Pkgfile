@@ -12,11 +12,18 @@ release=4
 run=(kernel-618)
 KERNELNAME="${name#nvidia-580-}"
 
-source=(https://download.nvidia.com/XFree86/Linux-x86_64/$version/NVIDIA-Linux-x86_64-$version.run)
+source=(0001-Enable-atomic-kernel-modesetting-by-default.patch
+        0002-Fix-hardware-cursor-crash.patch
+        https://download.nvidia.com/XFree86/Linux-x86_64/$version/NVIDIA-Linux-x86_64-$version.run)
+prepare() {
+ sh NVIDIA-Linux-x86_64-$version.run --extract-only
+ patch -Np1 -i $SRC/0001-Enable-atomic-kernel-modesetting-by-default.patch -d $SRC/NVIDIA-Linux-x86_64-$version/kernel
+ patch -Np1 -i $SRC/0002-Fix-hardware-cursor-crash.patch -d $SRC/NVIDIA-Linux-x86_64-$version/kernel
 
+}
 build()
 {
- sh NVIDIA-Linux-x86_64-$version.run --extract-only
+ 
  cd NVIDIA-Linux-x86_64-$version/kernel
 
  SYSSRC="/usr/src/$KERNELNAME" make modules
@@ -24,3 +31,4 @@ build()
  install -m0644 *.ko $PKG/usr/lib/modules/$KERNELNAME/kernel/drivers/video
  echo "cards.depmod(\"$(basename /usr/lib/modules/6.18.*)\")" > $PKGMK_ROOT/$name.post-install.lua
 }
+
