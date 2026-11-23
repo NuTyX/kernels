@@ -8,7 +8,7 @@ license="custom"
 
 name=nvidia-580-kernel-66
 version=580.196.07
-release=4
+release=5
 
 run=(kernel-66)
 KERNELNAME="${name#nvidia-580-}"
