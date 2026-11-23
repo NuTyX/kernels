@@ -1,1 +1,1 @@
-cards.depmod("7.3.5-1-nutyx")
+cards.depmod("7.3.6-1-nutyx")
